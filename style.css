@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(./2023-nissan-leaf-and-ariya-d-v3.webp)no-repeat center/cover;
+}
+.navbar{
+width: 100%;
+height: 100px;
+align-items: center;
+display: flex;
+color: #000;
+}
+
+.collection{
+    display: flex;
+    gap: 30px;
+    padding-left: 200px;
+    color: #fff;
+    align-items: center;
+}
+.collection :hover{
+    border-bottom: 4px solid #fff;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.vehilse__modal{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #fff;
+    transition: .3s;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.vehilse__shop  {
+    height: 600px;
+}
+.main_logo{
+    width: 100%;
+    height: 150%;
+    background: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+.logo_nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rek{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.logotiv{
+    font-size: 30px;
+}
+.ol{
+    list-style: none;
+}
+.rek :hover{
+    border-bottom: 2px solid #000;
+}
+.btn3{
+    padding: 15px 40px;
+    background: #000;
+    color: #fff;
+}
+.sidebar{
+width: 30%;
+height: 90vh;
+margin-top: -80px;
+flex-direction: column;
+line-height: 3;
+padding-left: 100px;
+}
+.sidebar :hover{
+    cursor: pointer;
+    border-bottom: 4px solid #000;
+}
+.right{
+    width: 70%;
+    height: 100vh;
+margin-top: -80px;
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
+
+.shop__modal{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: .3s;
+    overflow: hidden;
+    z-index: 5;
+    background: #ddd;
+}
+.shop__shop{
+    height: 500vh;
+}
+.sidebar_contacte{
+    border: 2px solid red;
+    display: flex;
+}
+.shop_logo_nav{
+    width: 100%;
+    height: 100px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shop_logo_nav h1{
+    margin-left: -150px;
+}
+.shop_sidebar{
+    width: 40%;
+    height: 100vh;
+    border: 2px solid red;
+}
+.f{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center ;
+    gap: 50px;
+    margin-top: 50px;
+}
+.salo{
+    width: 35%;
+    height: 15vh;   
+  text-align: center;
+  padding-top: 20px;
+  background: #fff;
+}
+.salo i{
+    font-size: 30px;
+}
+.ap{
+ margin-left: 30px;
+ line-height: 2;
+}
+
+.contacte{
+    width: 70%;
+    height: 100vh;
+    border: 2px solid red;
+display: flex;
+justify-content: space-around;
+}
+.img4 img{
+    width: 200px;
+    height: 150px;
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.til{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: .3s;
+    overflow: hidden;
+    background: #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.til_shop{
+    height: 150px;
+}
+.pogo button{
+padding: 15px 60px;
+}
+.pogo i{
+    margin-left: 50px;
+}
+.seachr{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: .3s;
+    overflow: hidden;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seachr_shop{
+    height: 150px;
+}
+.seachr input{
+    width: 500px;
+    height: 40px;
+    border: none;
+}
+.seachr input::after{
+    border: 2px solid blue;
+}
+.menu p{
+  width: 30px;
+  height: 5px;
+  background: #000;
+margin-top: 5px;
+display: none;
+}
+.btn{
+    padding: 15px 45px;
+    background: rgba(255, 255, 255, 0);
+    border:2px solid #fff;
+    margin-left: 15px;
+    color: #fff;
+}
+.text{
+    padding-top: 100px;
+    padding-left: 100px;
+    color: #fff;
+    line-height: 2;
+}
+.text h1{
+    font-size: 50px;
+}
+.btn2{
+    padding: 15px 50px;
+    background: rgb(247, 20, 20);
+    border: none;
+}
+.side__modal{
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+    transition: .3s;
+}
+.banner2{
+    width: 100%;
+    height: 100%    ;
+    background: #ddd;
+    margin-top: 25px;
+    padding-top: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    line-height: 4;
+    padding-left: 20px;
+    list-style: none;
+    font-weight: 800;
+    font-size: 20px;
+}
+.logo :hover{
+    color: rgba(0, 0, 0, 0.363);              
+
+}
+.y{
+    margin-left: 90px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.cars_banner{
+    display:flex;
+    flex-wrap: wrap;
+justify-content: space-around;
+}
+.cars{
+    width: 300px;
+    height: 250px;
+}
+.cars:hover{
+    background: #fff;
+    border-bottom: 4px solid red;
+}
+.textlar{
+    position: relative;
+    padding-left: 10px;
+}
+.banner3{
+    width: 100%;
+    height: 50%;
+    padding-top: 50px;
+    
+}
+.iconlar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+.texicon{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    border: 2px solid #ddd;
+}
+.iconlar :hover {
+    background: rgb(242, 57, 57);
+    color: #fff;
+}
+.texicon i{
+    font-size: 50px;
+padding-top: 20px;
+}
+.texicon p{
+    padding-top: 10px;
+}
+.img3{
+    width: 100%;
+    height: 100vh;
+    background: url(./nissan-heisman-house-v3.webp)no-repeat center/cover;
+    margin-top: 50px;
+    line-height: 2;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.j{
+    font-size: 50px;
+}   
+.banner4{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px
+}
+.h{
+    width: 350px;
+    height: 600px;
+    line-height: 3;
+}
+.imgi{
+    width: 350px;
+    height: 400px;
+background: url(./2022-rogue-steering-wheel_v2.webp);
+    border: 2px solid #fff;
+    
+}
+.tbn{
+    padding: 10px 40px;
+    background: #fff;
+}
+.tbn:hover{
+  background: #000;
+  color: #fff;
+}
+.imgw{
+    width: 350px;
+    height: 400px;
+    border: 2px solid #fff;
+    background: url(./2023-nissan-ariya-electric-crossover-suv-d-1.webp);
+}
+.imgt{
+    width: 350px;
+    height: 400px;
+    border: 2px solid #fff;
+   background: url(./nissan-thrill-of-the-drive-year-end-sale-v2\ \(1\).webp);
+}
+.p{
+    margin-top: 350px;
+    color: #fff;
+    margin-left: 20px;
+}
+.tb{
+    padding: 10px 40px;
+    background: #fff;
+    margin-top: 54px;
+}
+.tb:hover{
+    background: #000;
+    color: #fff;
+    
+  }

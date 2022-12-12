@@ -1,0 +1,12 @@
+
+@media screen and (max-width:1093px) {
+    .collection{
+        display: none;
+    }
+.menu p{
+    display: block;
+}
+}
+@media screen and (max-width) {
+    
+}
