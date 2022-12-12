@@ -7,8 +7,9 @@
     display: block;
 }
 }
-@media screen and (max-width:802px) {
-    .sidebar span{
+@media screen and (max-width:702px) {
+    .item2{
     display: none;
     }
+
 }
