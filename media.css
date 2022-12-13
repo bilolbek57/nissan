@@ -6,10 +6,23 @@
 .menu p{
     display: block;
 }
+
 }
 @media screen and (max-width:702px) {
     .item2{
     display: none;
     }
+    .navbar img{
+        display: none;
+    }
 }
-.
+@media screen and (max-width:412px){
+    .menu p {
+        margin-left: 300px;  
+    }
+}
+@media screen and (max-width:350px){
+    .menu p{
+        margin-right: 200px;
+    }
+}
