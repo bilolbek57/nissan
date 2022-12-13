@@ -372,6 +372,10 @@ background: url(./2022-rogue-steering-wheel_v2.webp);
     border: 2px solid #fff;
     
 }
+.img6{
+    width: 500px;
+    height: 400px;  
+}
 .tbn{
     padding: 10px 40px;
     background: #fff;
@@ -424,4 +428,12 @@ background: url(./2022-rogue-steering-wheel_v2.webp);
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+  }
+  .imgtext2 img{
+    width: 550px;
+    height: 320px;
+  }
+  .imgtext3 img{
+    width: 550px;
+    height: 320px;
   }
