@@ -1,5 +1,6 @@
 
 @media screen and (max-width:1093px) {
+
     .collection{
         display: none;
     }
@@ -15,6 +16,22 @@
     .navbar img{
         display: none;
     }
+    .text4{
+        display: none;
+    }
+    .banner5{
+        grid-template-columns: 1fr;
+        padding: 0 0;
+    }
+    .img6{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:592px){
+   .img6{
+    width: 412px;
+   } 
 }
 @media screen and (max-width:412px){
     .menu p {
