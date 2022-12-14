@@ -24,19 +24,22 @@
         padding: 0 0;
     }
     .img6{
-        width: auto;
+        width: 503px;
     }
 }
 
 @media screen and (max-width:592px){
    .img6{
-    width: 412px;
+    width: 400px;
    } 
 }
 @media screen and (max-width:412px){
     .menu p {
         margin-left: 300px;  
     }
+    .img6{
+        width: 350px;
+       } 
 }
 @media screen and (max-width:350px){
     .menu p{

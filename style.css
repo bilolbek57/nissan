@@ -427,11 +427,6 @@
 
 }
 
-.img6 {
-    width: auto;
-    height: 400px;
-}
-
 .tbn {
     padding: 10px 40px;
     background: #fff;
@@ -476,8 +471,10 @@
 
 .banner5 {
     width: 100%;
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background: #ddd;
 }
 
