@@ -32,6 +32,20 @@
    .img6{
     width: 400px;
    } 
+ .img7{
+    display: none;
+ }
+ .img8{
+    display: none;
+ }
+ .poo img{
+    width: 450px;
+ }
+}
+@media screen and (max-width:454){
+    .poo_img{
+        width: 400px;
+     }
 }
 @media screen and (max-width:412px){
     .menu p {
