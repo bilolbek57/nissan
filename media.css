@@ -66,6 +66,9 @@
         margin-right: 200px;
     }
     .poo img {
-        width: 350px;
+        width: 320px;
     }
+}
+@media screen and (max-width:300px){
+    
 }
