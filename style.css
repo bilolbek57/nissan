@@ -522,6 +522,7 @@
 .ves{
     display: flex;
     align-items: center;
+    justify-content: center;
     line-height: 2;
     flex-wrap: wrap;
 }
@@ -534,4 +535,75 @@ width: 500px;
 .g:hover{
     background: #000;
     color: #fff;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 3;
+    background: #000;
+    color: #fff;
+}
+footer li{
+    list-style: none;
+}
+.social{
+    width: 100%;
+        background: #000;
+    color: #fff;
+    padding-left: 140px;
+    padding-top: 100px;
+}
+.inconka{
+    font-size: 40px;
+}
+.a{
+    height: 10ex;
+    border-bottom: 2px solid #fff;
+}
+.footer_oldi{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 3;
+    background: #ddd;
+}
+.footer_oldi h1{
+    font-size: 40px;
+}
+.ps_btn{
+    padding: 30px 100px;
+background: rgb(255, 42, 0);
+}
+.li{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.ul_li{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    padding-top: 30px;
+
+}
+.zo_btn{
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: rgba(255, 255, 255, 0);
+
+}
+.do_btn{
+    padding: 10px 40px;
 }
