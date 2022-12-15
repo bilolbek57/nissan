@@ -42,10 +42,15 @@
     width: 450px;
  }
 }
-@media screen and (max-width:454){
-    .poo_img{
-        width: 400px;
+@media screen and (max-width:454px){
+    .poo img{
+        width: 420px;
      }
+}
+@media screen and (max-width:420px){
+    .poo img {
+        width: 412px;
+    }
 }
 @media screen and (max-width:412px){
     .menu p {
@@ -54,9 +59,13 @@
     .img6{
         width: 350px;
        } 
+
 }
 @media screen and (max-width:350px){
     .menu p{
         margin-right: 200px;
+    }
+    .poo img {
+        width: 350px;
     }
 }
